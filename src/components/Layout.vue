@@ -6,10 +6,10 @@
         background-color="#545c64"
         text-color="#fff"
       >
-        <el-menu-item @click="goHome" ><span>首页</span></el-menu-item>
-        <el-menu-item @click="goCount" ><span>统计管理</span></el-menu-item>
-        <el-menu-item @click="goOrder"><span>订单管理</span></el-menu-item>
-        <el-menu-item @click="goOther"><span>其他</span></el-menu-item>
+        <el-menu-item index="1" @click="goHome" ><span>首页</span></el-menu-item>
+        <el-menu-item index="2" @click="goCount" ><span>统计管理</span></el-menu-item>
+        <el-menu-item index="3" @click="goOrder"><span>订单管理</span></el-menu-item>
+        <el-menu-item index="4" @click="goOther"><span>其他</span></el-menu-item>
       </el-menu>
     </el-col>
   </el-row>

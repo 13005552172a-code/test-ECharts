@@ -7,5 +7,5 @@
 </template>
 <script setup>
 import { ref,onMounted,computed } from 'vue'
-import EChart from '../components/Earch.vue'
+import EChart from '../components/EarCh.vue'
 </script>
